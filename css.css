@@ -1,0 +1,16 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('drill_image.webp'); /* Replace with your actual image path or URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Set text color to contrast with the background */
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+/* Add styling for header, main, and footer as needed */

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-image: url('12188650_4890802.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: #fff;
+    }
+
+    header {
+      background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background for the header */
+      padding: 20px;
+      text-align: center;
+    }
+
+    header a {
+      color: black;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    section {
+      display: flex;
+      padding: 20px;
+      margin: 20px;
+      background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background for sections */
+      overflow: hidden; /* Clear the float to prevent layout issues */
+    }
+
+    .item {
+      width: 65%; /* Adjust the width of the content */
+      padding-left: 20px; /* Add some space between the image and content */
+    }
+
+    .item h2, .item p {
+      color: black; /* Black text color for section content */
+    }
+
+    /* Styling for the subscribe section */
+    .subscribe-section {
+      background-color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* Styling for the subscribe form */
+    .subscribe-form {
+      margin-top: 20px;
+    }
+
+    footer {
+      background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for the footer */
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><a href="#">Your Website Name</a></h1>
+    <p><a href="#">Home</a> | <a href="#history">Our History</a> | <a href="#team">Our Team</a> | <a href="#services">Our Services</a> | <a href="#subscribe">Subscribe</a></p>
+  </header>
+
+  <section id="history">
+    <img src="history-image.jpg" alt="History Image">
+    <div class="item">
+      <h2>Our History</h2>
+      <p>Founded in 1998, CORE Construction & Designs has been providing quality construction services for over 20 years. Our team has completed a wide variety of projects including commercial buildings, residential homes, and industrial facilities. We pride ourselves on our attention to detail and commitment to customer satisfaction.</p>
+    </div>
+  </section>
+
+  <section id="team">
+    <img src="our team.webp" alt="Team Image">
+    <div class="item">
+      <h2>Our Team</h2>
+      <p>Our experienced team consists of skilled tradespeople, project managers, and support staff who work together to ensure every project is completed on time, within budget, and to the highest standard. We are dedicated to providing exceptional service and building long-lasting relationships with our clients.</p>
+    </div>
+  </section>
+
+  <section id="services">
+    <img src="services-image.jpg" alt="Services Image">
+    <div class="item">
+      <h2>Our Services</h2>
+      <p>At CORE Construction & Designs, we offer a wide range of construction services including design-build, general contracting, project management, and more. We work with our clients to understand their unique needs and deliver solutions that exceed their expectations. Contact us today to learn more about how we can help bring your project to life.</p>
+    </div>
+  </section>
+
+  <!-- Subscribe Section -->
+  <section id="subscribe" class="subscribe-section">
+    <h2>Subscribe to Our Newsletter</h2>
+    <p>Stay updated with our latest projects and news.</p>
+
+    <!-- Subscribe Form (you can replace this with your actual subscription form) -->
+    <form class="subscribe-form" action="#" method="post">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Powered by Your Company</p>
+  </footer>
+
+</body>
+</html>
